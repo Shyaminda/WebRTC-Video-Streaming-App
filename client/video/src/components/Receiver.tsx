@@ -19,7 +19,7 @@ export const Receiver = () => {
 
     function startReceiving(socket: WebSocket) {
         const pc = new RTCPeerConnection();
-    
+
         pc.ontrack = (event) => {
             console.log("Received track event:", event);
             if (videoRef.current) {
@@ -31,7 +31,7 @@ export const Receiver = () => {
                 console.log("Stream assigned to video element:", stream.getTracks());
             }
         };
-    
+
         socket.onmessage = (event) => {
             try {
                 const message = JSON.parse(event.data);
