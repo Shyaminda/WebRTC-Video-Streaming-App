@@ -21,12 +21,12 @@ This project leverages WebRTC technology to facilitate real-time video streaming
 
 ## 🚀 Features
 - **Real-time Video Streaming**  
-  Utilizes WebRTC for peer-to-peer video streaming in real time.  
+  - Utilizes WebRTC for peer-to-peer video streaming in real time.  
 - **Sender & Receiver Functionality**  
   - Captures video from the sender's webcam.  
   - Displays the transmitted video on the receiver's screen.  
 - **WebSocket Signaling**  
-  Employs WebSocket for signaling, enabling offer/answer exchanges and ICE candidate negotiation between sender and receiver.
+  - Employs WebSocket for signaling, enabling offer/answer exchanges and ICE candidate negotiation between sender and receiver.
 
 ---
 
