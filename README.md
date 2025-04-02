@@ -43,8 +43,8 @@ Follow these steps to set up and run the project on your local machine:
 
 #### 1️⃣ Clone the Repository
 ```sh
-git clone https://github.com/your-username/webrtc-video-streaming.git
-cd webrtc-video-streaming
+git clone https://github.com/Shyaminda/WebRTC-Video-Streaming-App.git
+cd WebRTC-Video-Streaming-App
 ```
 
 #### 2️⃣ Install Dependencies
